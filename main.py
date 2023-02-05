@@ -15,5 +15,5 @@ for container in containers:
     subtitle = container.find_element(by="xpath", value='./a/p').text
     link = container.find_element(by="xpath", value='./a').get_attribute("href")
 
-input("Press Enter to close the browser")
+input("Press Enter to close the browser!")
 driver.quit()
